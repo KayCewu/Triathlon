@@ -15,32 +15,27 @@ import { setLogin } from "state";
 
 // Schema's below used for validation
 const registerSchema = yup.object().shape({
-  firstName: yup
+  userName: yup
     .string()
     .min(3)
-    .required("First Name is required and must be at least 3 characters"),
-  lastName: yup
-    .string()
-    .min(2)
-    .required("Last Name is required and Must be at least 2 characters"),
+    .required("Username must be at least 3 characters and is required"),
   email: yup.string().email("Invalid Email").required("Email is Required"),
   password: yup.string().password().required("Password is required"),
 });
 
 const loginSchema = yup.object().shape({
-  email: yup.string().required("Email is required"),
+  userName: yup.string().required("Email is required"),
   password: yup.string().required("Password is required"),
 });
 
 const intialRegisterValues = {
-  firstName: "",
-  lastName: "",
+  userName: "",
   email: "",
   password: "",
 };
 
 const initialLoginValues = {
-  email: "",
+  userName: "",
   password: "",
 };
 
@@ -127,42 +122,28 @@ const Register = () => {
             {isRegister && (
               <>
                 <TextField
-                  label="First Name"
+                  label="Email"
                   onBlur={handleBlur}
                   onChange={handleChange}
-                  value={values.firstName}
-                  name="firstName"
-                  error={
-                    Boolean(touched.firstName) && Boolean(errors.firstName)
-                  }
-                  helperText={touched.firstName && errors.firstName}
-                  sx={{ gridColumn: "span 2" }}
-                />
-
-                <TextField
-                  label="Last Name"
-                  onBlur={handleBlur}
-                  onChange={handleChange}
-                  value={values.lastName}
-                  name="lastName"
-                  error={Boolean(touched.lastName) && Boolean(errors.lastName)}
-                  helperText={touched.lastName && errors.lastName}
-                  sx={{ gridColumn: "span 2" }}
+                  value={values.email}
+                  name="email"
+                  error={Boolean(touched.email) && Boolean(errors.email)}
+                  helperText={touched.email && errors.email}
+                  sx={{ gridColumn: "span 4" }}
                 />
               </>
             )}
 
             <TextField
-              label="Email"
+              label="User Name"
               onBlur={handleBlur}
               onChange={handleChange}
-              value={values.email}
-              name="email"
-              error={Boolean(touched.email) && Boolean(errors.email)}
-              helperText={touched.email && errors.email}
+              value={values.password}
+              name="userName"
+              error={Boolean(touched.userName) && Boolean(errors.userName)}
+              helperText={touched.userName && errors.userName}
               sx={{ gridColumn: "span 4" }}
             />
-
             <TextField
               label="Password"
               type="password"
