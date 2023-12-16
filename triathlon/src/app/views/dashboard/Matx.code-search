@@ -1,0 +1,517 @@
+# Query: Matx
+# Flags: RegExp
+# ContextLines: 1
+
+197 results - 43 files
+
+package-lock.json:
+  1  {
+  2:   "name": "CodeCollabra-react",
+  3    "version": "3.1.0",
+
+  7      "": {
+  8:       "name": "CodeCollabra-react",
+  9        "version": "3.1.0",
+
+package.json:
+  1  {
+  2:   "name": "CodeCollabra-react",
+  3    "version": "3.1.0",
+
+product.description.html:
+   1  <p>
+   2:   Meet CodeCollabra React, Material design professional React admin dashboard built with Material UI
+   3:   library. CodeCollabra comes with ready to use components, pages, functional apps & redux implementation.
+   4    JWT role based authentication is implemented to the ruoting and navigation system.
+
+  18      <ul>
+  19:       <li><a href="http://CodeCollabra-react.ui-lib.com/ecommerce/shop">eCommerce/Shopping cart</a></li>
+  20:       <li><a href="http://CodeCollabra-react.ui-lib.com/scrum-board">Scrum board</a></li>
+  21:       <li><a href="http://CodeCollabra-react.ui-lib.com/calendar">Event calendar</a></li>
+  22:       <li><a href="http://CodeCollabra-react.ui-lib.com/chat">Chat</a></li>
+  23:       <li><a href="http://CodeCollabra-react.ui-lib.com/inbox">Inbox</a></li>
+  24:       <li><a href="http://CodeCollabra-react.ui-lib.com/invoice/list">Invoice builder</a></li>
+  25:       <li><a href="http://CodeCollabra-react.ui-lib.com/todo/list">To-do list</a></li>
+  26      </ul>
+  27    </li>
+  28:   <li><a href="http://CodeCollabra-react.ui-lib.com/crud-table">CRUD list</a></li>
+  29:   <li><a href="http://CodeCollabra-react.ui-lib.com/infinite-scroll">Infinite Scroll list</a></li>
+  30    <li>
+
+  32      <ul>
+  33:       <li><a href="http://CodeCollabra-react.ui-lib.com/forms/basic">Form validation</a></li>
+  34:       <li><a href="http://CodeCollabra-react.ui-lib.com/forms/editor">Rich text editor</a></li>
+  35:       <li><a href="http://CodeCollabra-react.ui-lib.com/forms/upload">Upload</a></li>
+  36:       <li><a href="http://CodeCollabra-react.ui-lib.com/forms/wizard">Wizard</a></li>
+  37      </ul>
+
+  41      <ul>
+  42:       <li><a href="http://CodeCollabra-react.ui-lib.com/charts/echarts">Echart</a></li>
+  43:       <li><a href="http://CodeCollabra-react.ui-lib.com/charts/react-vis">React vis</a></li>
+  44:       <li><a href="http://CodeCollabra-react.ui-lib.com/charts/victory-charts">Victory Chart</a></li>
+  45      </ul>
+  46    </li>
+  47:   <li><a href="http://CodeCollabra-react.ui-lib.com/material/autocomplete">Material UI Components</a></li>
+  48:   <li><a href="http://CodeCollabra-react.ui-lib.com/">Multilevel navigation</a></li>
+  49:   <li><a href="http://CodeCollabra-react.ui-lib.com/map">Google maps</a></li>
+  50:   <li><a href="http://CodeCollabra-react.ui-lib.com/CodeCollabra-list">CodeCollabra List/Grid</a></li>
+  51:   <li><a href="http://CodeCollabra-react.ui-lib.com/others/drag-and-drop">Drag & Drop</a></li>
+  52    <li>
+  53:     <a href="http://CodeCollabra-react.ui-lib.com/page-layouts/Left-sidebar-card">Inner page layout</a>
+  54    </li>
+  55:   <li><a href="http://CodeCollabra-react.ui-lib.com/others/pricing">Plans & Pricing</a></li>
+  56:   <li><a href="http://CodeCollabra-react.ui-lib.com/session/signin">Sign in</a></li>
+  57:   <li><a href="http://CodeCollabra-react.ui-lib.com/session/signup">Sign up</a></li>
+  58:   <li><a href="http://CodeCollabra-react.ui-lib.com/session/404">Error</a></li>
+  59:   <li><a href="http://CodeCollabra-react.ui-lib.com/session/forgot-password">Forgot password</a></li>
+  60  </ul>
+
+README.md:
+    1: <h1><a href="https://ui-lib.com/downloads/CodeCollabra-react-dashboard/">CodeCollabra React Material Design Admin Dashboard Template</a></h1>
+    2  
+    3: <a href="https://CodeCollabra-react-free.netlify.app/"><img alt="CodeCollabra React Admin" src="https://ui-lib.com/blog/wp-content/uploads/2021/09/CodeCollabra-github.png" /></a>
+    4  
+    5: <p>CodeCollabra is a full-featured React Material UI Admin Dashboard template. CodeCollabra is built with React, Redux & Material UI We implemented all the features you might need to start a new Web application. The free version includes all Material UI components, Form elements, and validation, JWT authentication, Sign in, sign up pages,  Vertical navigation, Lazy loading, Code splitting.</p>
+    6  
+
+    9  <tr>
+   10: <th>CodeCollabra Free</th>
+   11: <th>CodeCollabra Pro</th>
+   12  </tr>
+
+   14  <td>
+   15: <a href="https://CodeCollabra-react-free.netlify.app/">Live Preview</a> <br>
+   16: <a href="https://ui-lib.com/downloads/CodeCollabra-react-dashboard/">Download CodeCollabra</a>
+   17  </td>
+   18  <td>
+   19: <a href="http://CodeCollabra-react.ui-lib.com/">Live Preview</a> <br>
+   20: <a href="https://ui-lib.com/downloads/CodeCollabra-pro-react-admin/">Get CodeCollabra Pro</a>
+   21  </td>
+
+   77  <ul>
+   78:   <li>All features of CodeCollabra free +</li>
+   79    <li>Firebase authentication</li>
+
+  179  <h3>Download</h3>
+  180: Download From <a href="https://ui-lib.com/downloads/CodeCollabra-react-dashboard/">official website</a>
+  181  
+
+public\index.html:
+   34      -->
+   35:     <title>CodeCollabra React - Material UI admin dashboard template</title>
+   36  
+
+   38      <style>
+   39:       .CodeCollabra-loader {
+   40          display: inline-block;
+
+   48        }
+   49:       .CodeCollabra-loader img {
+   50          position: absolute;
+
+   58        }
+   59:       .CodeCollabra-loader div {
+   60          box-sizing: border-box;
+
+   67          border-radius: 50%;
+   68:         animation: CodeCollabra-loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+   69          border-color: #1976d2 transparent transparent transparent;
+   70        }
+   71:       .CodeCollabra-loader div:nth-child(1) {
+   72          animation-delay: -0.45s;
+   73        }
+   74:       .CodeCollabra-loader div:nth-child(2) {
+   75          animation-delay: -0.3s;
+   76        }
+   77:       .CodeCollabra-loader div:nth-child(3) {
+   78          animation-delay: -0.15s;
+   79        }
+   80:       @keyframes CodeCollabra-loader {
+   81          0% {
+
+   89  
+   90:     <!-- Hotjar Tracking Code for http://CodeCollabra-react.ui-lib.com/ -->
+   91      <script>
+
+  106  
+  107:     <!-- Global site tag (gtag.js) - Google Analytics for http://CodeCollabra-react.ui-lib.com/ -->
+  108      <script
+
+  125      <div id="root">
+  126:       <div class="CodeCollabra-loader">
+  127          <div></div>
+
+public\assets\images\mobile-3.svg:
+  52      <pattern id="pattern-6" width="1" height="1" viewBox="0 22.476 45.896 45.896">
+  53: ⟪ 68158 characters skipped ⟫7fsb/ZA/nsxjyZBduLKQzN/wAEb6fsb6Q00f649BUixnoY6a8HjpfQjpf8hgZldDHLw+Ho0u98Thow516GOI0PRcVLwOJt9GQTeGygzT2QpUorYi3jiKzrO0x58ZE4m5jEjKS/RBURpRUvI5jLI3KlENlwMmmNBGx++EwuF+aCwX/42hotSmMa7zOBKDWRdEKZOPJGgsCodeCollabraHMV9IYx7D4MzoV8YHDJ9DHrqiDPfkzRd5ke0n/AJRpTDPkbe/4E2tZFBYKIlwjBZgaHP4SE/fGFhmh0NCdtJLLMkajXHeQWkhhKKdF058j3Cm+sB/m9jUJNVFwXjDGiFzoy1mUY1H2LwMsRtwz4MZnto16MyLjhfm+F/8AlaKPwPa8saXGBqMtiQziWVSxnkaMYezxLey+if2RoX+iiZwVINH8Cb/SEoaTyzT48iyYqh4JNfOqQ8+/JQuQsIaMPvyf8DGxIVuC1GtsTk1GUZ4VtjtkQw0ZNCENUhkB3JDrdux45+v6IXOAYZFU/HgjFONSDRchmjwPFkjTfFfm6WBJsU0x20KdjiOfR091PJ6ms0GL/CvxZf8AMyHTch2vGRMUQZr4Iiy2VeOHYbGzNsV3IXtP6IEFnT0ePgnhi+aXY61CH5whMEjLbNZCGzEiHBk39dF5RgGPsmN2hawiqrekWnGdRi8OzKqog+Sn8MzRTYqD58TqP/JqLvYmWGUSqG1g8zjhKuGIbFVLs0XDGNjRK+h0jCwM8DG2Csnyn+BjF4peSC/5WUUesiDHwNvI8XTY8mTG4ZjCZEzF0VUUkQoa/ZfgVZE1Y39n/wBpBPg0YIWJRMrjo7b0aNf8jo0VCO00HYX/AMjAxDaUqfFHjoycncCh6NoDWMyn5Hp4huE6YwYpVzZn/jsb0duDV/yPkQsclK0mPDKa4TFW20LNGgGGw/bibOiqGRPeDAQPUOfQwTCvg0gsVBVfkpfxnL5GFmWE/wDGxzdJTdI1EGtiubdvI8sQ0N+hmLkKSuBnrBrGzp7RPeRl4MGjb/gZ8FL7NPI8Z5NDNl9ZGmu9Gwmhx3+QRVR2zOwoxiCPryJvQ1ssl4F1NfgRw1B1LDnQlxnTx6PEyiQmZMvaL42Lcnp+jFTMN2JG2Z/sVYY2CoTyhTb++FEtaI9CPAl5I3K/ocF/lZqN+DfG3+RzZnJ/C4J5FzBQab/CaRM+TQOPh/
+  54      </pattern>
+
+public\assets\images\mobile-4.svg:
+  15      <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1880 1058">
+  16: ⟪ 229025 characters skipped ⟫+JxuA4lVFNIo8oKCDWQd1NfgwbWCA6VFwJydXzDDF4LSp0cwBzBbjmedjeTG7bmOMHwBOcI4iUC2ZbUETO2oXm28yqb8FXju67g5DxM5LrDp7mG2DuGyQog52nAXuDFJfwtNJcxv1CQFUALVaAhqtS0OH7js1XxnuISxv5v4WiWy4PwS8RYUf5i62rZN5cu4hWFrOPEbCodeCollabraR7hhZnqNsqoRZFGUFoKdpZXMViDKN6/wDYEG4eMELUoCinFdQMCgus89EdLVnUo2jtzLj83PcucfNw3txCoOKvxBE0XqBI2kZjbEI1WKP5mL5g0L5LlZavqOsYvuFDbnrMC1gXmB3dVEK47gafIHysdfFSpUSIjSdcIBxFiEFTdQcP2jSYhEGTFeo6VEu+IBK8TTEbeiNs1FXv/UpPqJa3UJhV3CKGFqvcJCiqIUDpHUUsvFH3EqbqWUVLS+IoK1GpqKnSIy+i5jzLhBJACnJCc/BFqHlAFIJenuKW3LlwYMpeTZ8CMcw1NnUz2FXm+o5jGLXzfv5bvx8i2C4jXt8o4pzLa1cQytKeV7mUJqEuesVBoqyrxxnuZ3iZgJli+SEg5vUQIXY3LQyV1mKaHLwagSrSGa1si2LHXISpa8QSozFQrfcTVr6vMV9F7Xcphd16lxliCJQaY2bbZlgafcKOYixuoVL3LIhjEMq2NgY7TEt3phcqglsDV7xEs8Q0MWMEaz/UHkWvqXUGavouwlOorZQ+YgZ3EWdsK3ivUbjH5hiZDtvUFMa779RQjhNogiWxjH40YD4XALdo6ojtNgltQq33A4pqCGGKOFc3CWzTUFBzVfkmPA0WateDzHhLbD3AF5XPP8S5dRS5v4vLFlD4VxBh6TSMA2YqoXdcRepeYmBd0CnhMl9ncyAeRcrlrx1BgwMXw3D38iJu4LLA8Lk+U+BcErkf4gy4zT4ZgAiCOx0y6CjUpUtMVWqDcBI10NP/AJM9UrAf7g3lc+NRiBb9MrUpj4Da8RpMFXEcNXVl7l5u2A4B0RlbzXEpZj8P+ROIQ3yGMVANhrmOULcblytLxHqjzxKWthJW3/tAtRGgvnUbSsVUqLQsTp66g0FvO4RWs9wFSs/GMfKxgS1bt/EqV8CtajASuKjGDc5WXRWuoAlD7lleIcZ/ETWcwFU/GTzFbXF6uCneeosXCOeZyd3ipZ0f4gQ2L0TFaK
+  17      </pattern>
+
+src\index.jsx:
+  20  // for IE-11 support un-comment cssVars() and it's import in this file
+  21: // and in CodeCollabraTheme file
+  22  
+
+src\app\App.jsx:
+   2  import { useRoutes } from 'react-router-dom';
+   3: import { CodeCollabraTheme } from './components';
+   4  import { AuthProvider } from './contexts/JWTAuthContext';
+
+  14        <AuthProvider>
+  15:         <CodeCollabraTheme>
+  16            <CssBaseline />
+  17            {content}
+  18:         </CodeCollabraTheme>
+  19        </AuthProvider>
+
+src\app\navigations.js:
+  44      type: 'extLink',
+  45:     path: 'http://demos.ui-lib.com/CodeCollabra-react-doc/'
+  46    }
+
+src\app\routes.jsx:
+   5  import Loadable from './components/Loadable';
+   6: import CodeCollabraLayout from './components/CodeCollabraLayout/CodeCollabraLayout';
+   7  import materialRoutes from 'app/views/material-kit/MaterialRoutes';
+
+  24        <AuthGuard>
+  25:         <CodeCollabraLayout />
+  26        </AuthGuard>
+
+src\app\components\Brand.jsx:
+   1  import { Box, styled } from '@mui/material';
+   2: import { CodeCollabraLogo } from 'app/components';
+   3  import useSettings from 'app/hooks/useSettings';
+
+  26        <Box display="flex" alignItems="center">
+  27:         <CodeCollabraLogo />
+  28          <StyledSpan mode={mode} className="sidenavHoverShow">
+  29:           CodeCollabra
+  30          </StyledSpan>
+
+src\app\components\Footer.jsx:
+  41            <FooterContent>
+  42:             <a href="https://ui-lib.com/downloads/CodeCollabra-pro-react-admin/">
+  43                <Button variant="contained" color="secondary">
+  44:                 Get CodeCollabra Pro
+  45                </Button>
+
+src\app\components\index.js:
+   7  export { default as GoogleIcon } from './icons/GoogleIcon';
+   8: export { CodeCollabraLayouts } from './CodeCollabraLayout/index';
+   9: export { default as CodeCollabraLayout } from './CodeCollabraLayout/CodeCollabraLayout';
+  10: export { default as CodeCollabraLoading } from './CodeCollabraLoading';
+  11: export { default as CodeCollabraLogo } from './CodeCollabraLogo';
+  12: export { default as CodeCollabraMenu } from './CodeCollabraMenu';
+  13: export { default as CodeCollabraProgressBar } from './CodeCollabraProgressBar';
+  14: export { default as CodeCollabraSearchBox } from './CodeCollabraSearchBox';
+  15: export { default as CodeCollabraSidenav } from './CodeCollabraSidenav/CodeCollabraSidenav';
+  16: export { default as CodeCollabraSuspense } from './CodeCollabraSuspense';
+  17: export { EchartTheme } from './CodeCollabraTheme/EchartTheme';
+  18: export { default as CodeCollabraTheme } from './CodeCollabraTheme/CodeCollabraTheme';
+  19: export { default as CodeCollabraVerticalNav } from './CodeCollabraVerticalNav/CodeCollabraVerticalNav';
+  20: export { default as CodeCollabraVerticalNavExpansionPanel } from './CodeCollabraVerticalNav/CodeCollabraVerticalNavExpansionPanel';
+  21  export { default as SimpleCard } from './SimpleCard';
+
+src\app\components\Loadable.jsx:
+  1  import { Suspense } from 'react';
+  2: import Loading from './CodeCollabraLoading';
+  3  
+
+src\app\components\CodeCollabraLogo.jsx:
+   2  
+   3: const CodeCollabraLogo = ({ className }) => {
+   4    const { settings } = useSettings();
+
+  59  
+  60: export default CodeCollabraLogo;
+  61  
+
+src\app\components\CodeCollabraMenu.jsx:
+  10  
+  11: const CodeCollabraMenu = (props) => {
+  12    const { settings } = useSettings();
+
+  44  
+  45: export default CodeCollabraMenu;
+
+src\app\components\CodeCollabraProgressBar.jsx:
+   8  
+   9: const CodeCollabraProgressBar = ({
+  10    value = 75,
+
+  38  
+  39: export default CodeCollabraProgressBar;
+
+src\app\components\CodeCollabraSearchBox.jsx:
+  32  
+  33: const CodeCollabraSearchBox = () => {
+  34    const [open, setOpen] = useState(false);
+
+  57  
+  58: export default CodeCollabraSearchBox;
+
+src\app\components\CodeCollabraSuspense.jsx:
+  1  import { Suspense } from 'react';
+  2: import { CodeCollabraLoading } from 'app/components';
+  3  
+  4: const CodeCollabraSuspense = ({ children }) => {
+  5:   return <Suspense fallback={<CodeCollabraLoading />}>{children}</Suspense>;
+  6  };
+  7  
+  8: export default CodeCollabraSuspense;
+
+src\app\components\ShoppingCart.jsx:
+  6  import useSettings from 'app/hooks/useSettings';
+  7: import { themeShadows } from './CodeCollabraTheme/themeColors';
+  8  import { sideNavWidth, topBarHeight } from 'app/utils/constant';
+
+src\app\components\Sidenav.jsx:
+   3  import { styled } from '@mui/material';
+   4: import { CodeCollabraVerticalNav } from 'app/components';
+   5  import useSettings from 'app/hooks/useSettings';
+
+  48          {children}
+  49:         <CodeCollabraVerticalNav items={navigations} />
+  50        </StyledScrollBar>
+
+src\app\components\CodeCollabraCustomizer\Layout1Customizer.jsx:
+  18  import BadgeSelected from './BadgeSelected';
+  19: import { themeColors, themeShadows } from '../CodeCollabraTheme/themeColors';
+  20  import { mainSidebarThemes, topbarThemes } from './customizerOptions';
+
+src\app\components\CodeCollabraCustomizer\CodeCollabraCustomizer.jsx:
+   16  import Scrollbar from 'react-perfect-scrollbar';
+   17: import { themeShadows } from '../CodeCollabraTheme/themeColors';
+   18  import { H5, Span } from '../Typography';
+
+   88  
+   89: const CodeCollabraCustomizer = () => {
+   90    const theme = useTheme();
+
+  186                      We used React context API to control layout. Check out the{' '}
+  187:                     <Link href="http://demos.ui-lib.com/CodeCollabra-react-doc/layout.html" target="_blank">
+  188                        Documentation
+
+  243  
+  244: export default CodeCollabraCustomizer;
+
+src\app\components\CodeCollabraLayout\index.js:
+  2  
+  3: export const CodeCollabraLayouts = { layout1: lazy(() => import('./Layout1/Layout1')) };
+
+src\app\components\CodeCollabraLayout\CodeCollabraLayout.jsx:
+   1: import { CodeCollabraSuspense } from 'app/components';
+   2  import useSettings from 'app/hooks/useSettings';
+   3: import { CodeCollabraLayouts } from './index';
+   4  
+   5: const CodeCollabraLayout = (props) => {
+   6    const { settings } = useSettings();
+   7:   const Layout = CodeCollabraLayouts[settings.activeLayout];
+   8  
+   9    return (
+  10:     <CodeCollabraSuspense>
+  11        <Layout {...props} />
+  12:     </CodeCollabraSuspense>
+  13    );
+
+  15  
+  16: export default CodeCollabraLayout;
+
+src\app\components\CodeCollabraLayout\settings.js:
+   1: import { themes } from '../CodeCollabraTheme/initThemes';
+   2  import layout1Settings from './Layout1/Layout1Settings';
+
+   4  // UPDATE BELOW CODE
+   5: // DOC http://demos.ui-lib.com/CodeCollabra-react-doc/layout.html
+   6: export const CodeCollabraLayoutSettings = {
+   7    activeLayout: 'layout1', // layout1, layout2
+   8:   activeTheme: 'blue', // View all valid theme colors inside CodeCollabraTheme/themeColors.js
+   9    perfectScrollbar: false,
+
+  16      open: false,
+  17:     theme: 'slateDark1' // View all valid theme colors inside CodeCollabraTheme/themeColors.js
+  18    },
+
+  22      fixed: false,
+  23:     theme: 'slateDark1' // View all valid theme colors inside CodeCollabraTheme/themeColors.js
+  24    }
+
+src\app\components\CodeCollabraLayout\Layout1\Layout1.jsx:
+    4  import { Outlet } from 'react-router-dom';
+    5: import { CodeCollabraSuspense } from 'app/components';
+    6  import useSettings from 'app/hooks/useSettings';
+
+    8  import Footer from '../../Footer';
+    9: import SidenavTheme from '../../CodeCollabraTheme/SidenavTheme/SidenavTheme';
+   10  import SecondarySidebar from '../../SecondarySidebar/SecondarySidebar';
+
+  109              <Box flexGrow={1} position="relative">
+  110:               <CodeCollabraSuspense>
+  111                  <Outlet />
+  112:               </CodeCollabraSuspense>
+  113              </Box>
+
+  127              <Box flexGrow={1} position="relative">
+  128:               <CodeCollabraSuspense>
+  129                  <Outlet />
+  130:               </CodeCollabraSuspense>
+  131              </Box>
+
+src\app\components\CodeCollabraLayout\Layout1\Layout1Settings.js:
+   4      mode: 'full', // full, close, compact, mobile,
+   5:     theme: 'slateDark1', // View all valid theme colors inside CodeCollabraTheme/themeColors.js
+   6      bgImgURL: '/assets/images/sidebar/sidebar-bg-dark.jpg'
+
+  10      fixed: true,
+  11:     theme: 'whiteBlue' // View all valid theme colors inside CodeCollabraTheme/themeColors.js
+  12    }
+
+src\app\components\CodeCollabraLayout\Layout1\Layout1Sidenav.jsx:
+  2  import { Hidden, Switch, Box, styled, useTheme } from '@mui/material';
+  3: import { themeShadows } from 'app/components/CodeCollabraTheme/themeColors';
+  4  import useSettings from 'app/hooks/useSettings';
+
+src\app\components\CodeCollabraLayout\Layout1\Layout1Topbar.jsx:
+   14  
+   15: import { CodeCollabraMenu, CodeCollabraSearchBox } from 'app/components';
+   16: import { themeShadows } from 'app/components/CodeCollabraTheme/themeColors';
+   17  import { NotificationProvider } from 'app/contexts/NotificationContext';
+
+  128          <Box display="flex" alignItems="center">
+  129:           <CodeCollabraSearchBox />
+  130  
+
+  136  
+  137:           <CodeCollabraMenu
+  138              menuButton={
+
+  171              </StyledItem>
+  172:           </CodeCollabraMenu>
+  173          </Box>
+
+src\app\components\CodeCollabraSidenav\CodeCollabraSidenav.jsx:
+  25  
+  26: const CodeCollabraSidenav = ({ sx, open, children, toggleSidenav, width = '220px' }) => {
+  27    const theme = useTheme();
+
+  40  
+  41: export default CodeCollabraSidenav;
+
+src\app\components\CodeCollabraTheme\initThemes.js:
+   5  
+   6: function createCodeCollabraThemes() {
+   7    let themes = {};
+
+  15  
+  16: export const themes = createCodeCollabraThemes();
+
+src\app\components\CodeCollabraTheme\CodeCollabraTheme.jsx:
+   3  
+   4: const CodeCollabraTheme = ({ children }) => {
+   5    const { settings } = useSettings();
+
+  15  
+  16: export default CodeCollabraTheme;
+
+src\app\components\CodeCollabraVerticalNav\CodeCollabraVerticalNav.jsx:
+    5  import { Paragraph, Span } from '../Typography';
+    6: import CodeCollabraVerticalNavExpansionPanel from './CodeCollabraVerticalNavExpansionPanel';
+    7  
+
+   75  
+   76: const CodeCollabraVerticalNav = ({ items }) => {
+   77    const { settings } = useSettings();
+
+   90          return (
+   91:           <CodeCollabraVerticalNavExpansionPanel mode={mode} item={item} key={index}>
+   92              {renderLevels(item.children)}
+   93:           </CodeCollabraVerticalNavExpansionPanel>
+   94          );
+
+  173  
+  174: export default React.memo(CodeCollabraVerticalNav);
+
+src\app\components\CodeCollabraVerticalNav\CodeCollabraVerticalNavExpansionPanel.jsx:
+   75  
+   76: const CodeCollabraVerticalNavExpansionPanel = ({ item, children, mode }) => {
+   77    const [collapsed, setCollapsed] = useState(true);
+
+  155  
+  156: export default CodeCollabraVerticalNavExpansionPanel;
+
+src\app\components\NotificationBar\NotificationBar.jsx:
+  18  import { getTimeDifference } from 'app/utils/utils.js';
+  19: import { themeShadows } from '../CodeCollabraTheme/themeColors';
+  20  import { Paragraph, Small } from '../Typography';
+
+src\app\components\SecondarySidebar\SecondarySidebar.jsx:
+  1  import useSettings from 'app/hooks/useSettings';
+  2: import SecondarySidenavTheme from '../CodeCollabraTheme/SecondarySidenavTheme/SecondarySidenavTheme';
+  3  import SecondarySidebarContent from './SecondarySidebarContent';
+
+src\app\components\SecondarySidebar\SecondarySidebarContent.jsx:
+   3  import { Chatbox, ChatHead } from 'app/components';
+   4: import CodeCollabraCustomizer from '../CodeCollabraCustomizer/CodeCollabraCustomizer';
+   5  import ShoppingCart from '../ShoppingCart';
+
+  27        },
+  28:       '.CodeCollabra-customizer': {
+  29          right: (props) => props.width
+
+  45        <Span sx={{ m: 'auto' }}></Span>
+  46:       <CodeCollabraCustomizer />
+  47        <ShoppingCart />
+
+src\app\contexts\JWTAuthContext.js:
+   2  import axios from 'axios';
+   3: import { CodeCollabraLoading } from 'app/components';
+   4  
+
+  97    // SHOW LOADER
+  98:   if (!state.isInitialised) return <CodeCollabraLoading />;
+  99  
+
+src\app\contexts\SettingsContext.js:
+   2  import { merge } from 'lodash';
+   3: import { CodeCollabraLayoutSettings } from 'app/components/CodeCollabraLayout/settings';
+   4  
+   5  const SettingsContext = createContext({
+   6:   settings: CodeCollabraLayoutSettings,
+   7    updateSettings: () => {}
+
+  10  export const SettingsProvider = ({ settings, children }) => {
+  11:   const [currentSettings, setCurrentSettings] = useState(settings || CodeCollabraLayoutSettings);
+  12  
+
+src\app\views\dashboard\shared\Campaigns.jsx:
+   1  import { Box } from '@mui/material';
+   2: import { CodeCollabraProgressBar, SimpleCard } from 'app/components';
+   3  import { Small } from 'app/components/Typography';
+
+   9          <Small color="text.secondary">Today</Small>
+  10:         <CodeCollabraProgressBar value={75} color="primary" text="Google (102k)" />
+  11:         <CodeCollabraProgressBar value={45} color="secondary" text="Twitter (40k)" />
+  12:         <CodeCollabraProgressBar value={75} color="primary" text="Tensor (80k)" />
+  13  
+
+  16          </Small>
+  17:         <CodeCollabraProgressBar value={75} color="primary" text="Google (102k)" />
+  18:         <CodeCollabraProgressBar value={45} color="secondary" text="Twitter (40k)" />
+  19:         <CodeCollabraProgressBar value={75} color="primary" text="Tensor (80k)" />
+  20  
+
+  23          </Small>
+  24:         <CodeCollabraProgressBar value={75} color="primary" text="Google (102k)" />
+  25:         <CodeCollabraProgressBar value={45} color="secondary" text="Twitter (40k)" />
+  26:         <CodeCollabraProgressBar value={75} color="primary" text="Tensor (80k)" />
+  27        </SimpleCard>
+
+src\app\views\dashboard\shared\UpgradeCard.jsx:
+  32          <Paragraph>
+  33:           Upgrade to <b>CodeCollabra PRO</b> for <br /> more resources
+  34          </Paragraph>
