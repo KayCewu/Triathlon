@@ -1,8 +1,9 @@
 import './App.css';
-
+import UserProfile from './Components/UserProfile';
 function App() {
   return (
     <div className="App">
+      <UserProfile/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
